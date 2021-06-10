@@ -6,12 +6,12 @@
 </head>
 <body>
     <form>
-        <div class="row"><input type="text" id="fname" name="fname"> Imie</div>
-        <div class="row"><input type="text" id="fname" name="fname"> Nazwisko</div>
-        <div class="row"><input type="text" id="fname" name="fname"> Pesel</div>
-        <div class="row"><input type="text" id="fname" name="fname"> Adres IP</div>
-        <div class="row"><button type="button">Web Worker pesel_ip.js</button></div>
-        <div class="row"><button type="button">Web Worker switch_letters.js</button></div>
+        <div class="row"><input type="text" id="name"> Imie</div>
+        <div class="row"><input type="text" id="surname"> Nazwisko</div>
+        <div class="row"><input type="text" id="pesel"> Pesel</div>
+        <div class="row"><input type="text" id="ip"> Adres IP</div>
+        <div class="row"><button type="button" onclick="startPeselWorker()">Web Worker pesel_ip.js</button></div>
+        <div class="row"><button type="button" onclick="startLettersWorker()">Web Worker switch_letters.js</button></div>
     </form>
 </body>
 </html>
